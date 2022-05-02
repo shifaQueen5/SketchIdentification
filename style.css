@@ -1,0 +1,30 @@
+body{
+    background-color: green;
+}
+.heading{
+    background-color: rgb(185, 234, 185);
+    padding: 10px;
+    font-size: 25px;
+    width:100%;
+    margin-top: 0px;
+    top:0;
+}
+#show_sketch{
+    float: right;
+}
+p{
+    font-size: 25px;
+    color:white;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    margin-top:120px;
+    animation-name: glow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow{
+    from{box-shadow: 1px 1px 380px rgb(0, 255, 221);}
+    to{box-shadow: 1px 1px 380px rgb(255, 174, 0);}
+}
